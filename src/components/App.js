@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div id="main">
     <h1 id = "marco-polo">{data ? 'Marco': 'Polo'}</h1>
-    <button id = "marco-polo-toggler" onClick={setData(data)}> {data ? 'Marco': 'Polo'}<button/>
+    <button id = "marco-polo-toggler" onClick={setData(!data)}> {!data ? 'Marco': 'Polo'}<button/>
 
     </div>
   )
